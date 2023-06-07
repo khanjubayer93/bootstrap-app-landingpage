@@ -1,0 +1,16 @@
+.banner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+}
+
+.banner>div {
+    width: 50%;
+}
+
+@media (max-width:578px) {
+    .banner > div{
+        width: 100%;
+    }
+}
